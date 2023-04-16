@@ -4,6 +4,21 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Jogos Jogados</title>
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+          li.serie {
+            color: green;
+          }
+      
+          li.filme {
+            color: blue;
+          }
+      
+          .jogo {
+            color: orangered;
+          }
+        </style>
     </head>
 
     <body>
@@ -22,28 +37,28 @@
             <p>Três últimos jogos que joguei:</p>
 
             <ol>
-                <li>Fruit Ninja</li>
-                <li>Fairway</li>
-                <li>Bloons TD 6</li>
-                <li>Subway Surf</li>
+                <li class="jogo">Fruit Ninja</li>
+                <li class="jogo">Fairway</li>
+                <li class="jogo">Bloons TD 6</li>
+                <li class="jogo">Subway Surf</li>
             </ol>
 
             <p>Filmes e séries que assisti:</p>
             <ul>
                 <li>
                     <div>Filmes</div>
-                    <ul style="color:blue">
-                        <li>Avatar</li>
-                        <li>A Culpa É Das Estrelas</li>
-                        <li>Homem de Ferro</li>
+                    <ul style="color:green">
+                        <li class="filme">Avatar</li>
+                        <li class="filme">A Culpa É Das Estrelas</li>
+                        <li class="filme">Homem de Ferro</li>
                     </ul>
                 </li>
                 <li>
                     <div>Séries</div>
-                    <ul style="color:green">
-                        <li>The Good Doctor</li>
-                        <li>Manifest</li>
-                        <li>Bom Dia, Verônica</li>
+                    <ul style="color:blue">
+                        <li class="serie">The Good Doctor</li>
+                        <li class="serie">Manifest</li>
+                        <li class="serie">Bom Dia, Verônica</li>
                     </ul>
                 </li>
             </ul>
